@@ -23,8 +23,7 @@ Build:
 
 ```
 docker build -t apache-php-fpm .;
-docker run \
--p 8o:80 ;
+docker run apache-php-fpm -p 8o:80;
 ```
 Open browser http://localhost:80/info.php
 
